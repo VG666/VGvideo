@@ -1,0 +1,39 @@
+Nuitka-Options: Used command line options:
+Nuitka-Options:   --standalone --assume-yes-for-downloads --jobs=4 --low-memory --enable-plugin=tk-inter --windows-console-mode=disable --windows-icon-from-ico=ico/logo.ico --output-dir=build_nuitka --output-filename=VGVideo.exe --include-data-dir=ico=ico --include-data-dir=rotation_local=rotation_local --include-raw-dir=videovlc=videovlc --include-data-dir=config=config --include-data-dir=server=server --include-data-dir=model/api/qqapi/localplay=model/api/qqapi/localplay --include-data-files=utility/aria2c.exe=utility/aria2c.exe --include-data-files=utility/ffmpeg.exe=utility/ffmpeg.exe --include-module=vlc --include-module=max_win --include-module=windnd --include-module=ToolTips --company-name=VGVideo --product-name=VGVideo --file-description="VG Video desktop client" --file-version=1.0.0.0 --product-version=1.0.0.0 main.py
+Nuitka: Starting Python compilation with:
+Nuitka:   Version '4.2.1' on Python 3.14 (flavor 'CPython Official') commercial grade 'not installed'.
+Nuitka-Plugins:anti-bloat: Not including 'PIL.ImageQt' automatically in order to avoid bloat, but this may cause: PIL will not be able to create Qt image objects.
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Backend C compiler: ~\AppData\Local\Nuitka\Nuitka\Cache\downloads\pip\private-49c291cb\Lib\site-packages\ziglang\zig.exe (zig.exe 0.16.0).
+Nuitka-Scons: Backend C linking with 158 files (no progress information available for this stage).
+Nuitka-Postprocessing: Adding 1 icon(s) from icon file 'ico\logo.ico'.
+Nuitka-Options: Included data file 'utility\aria2c.exe' due to specified data file 'utility/aria2c.exe=utility/aria2c.exe' on command line.
+Nuitka-Options: Included data file 'utility\ffmpeg.exe' due to specified data file 'utility/ffmpeg.exe=utility/ffmpeg.exe' on command line.
+Nuitka-Options: Included data file 'ico\logo.ico' due to specified data dir 'ico' on command line.
+Nuitka-Options: Included data file 'rotation_local\1.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\2.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\3.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\4.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\5.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\6.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'rotation_local\7.png' due to specified data dir 'rotation_local' on command line.
+Nuitka-Options: Included data file 'config\.cookie_cache.json' due to specified data dir 'config' on command line.
+Nuitka-Options: Included data file 'config\config.json' due to specified data dir 'config' on command line.
+Nuitka-Options: Included data file 'config\uiprefs.json' due to specified data dir 'config' on command line.
+Nuitka-Options: Included data file 'server\.cookie_cache.json' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\README.md' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\config.example.json' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\config.json' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\requirements.txt' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\vgplay\ckey.wasm' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'server\vgplay\tx.js' due to specified data dir 'server' on command line.
+Nuitka-Options: Included data file 'model\api\qqapi\localplay\ckey.wasm' due to specified data dir 'model\api\qqapi\localplay' on command line.
+Nuitka-Options: Included data file 'model\api\qqapi\localplay\tx.js' due to specified data dir 'model\api\qqapi\localplay' on command line.
+Nuitka-Options: Included 519 data files due to specified raw dir 'videovlc' on command line.
+Nuitka-Plugins:tk-inter: Included 89 data files due to Tk needed for tkinter usage.
+Nuitka-Plugins:tk-inter: Included 837 data files due to Tcl needed for tkinter usage.
+Nuitka: Keeping build directory 'build_nuitka\main.build'.
+Nuitka: Successfully created 'f:\编程\VG视频\新建文件夹\video\build_nuitka\main.dist\VGVideo.exe'.

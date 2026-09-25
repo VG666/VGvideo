@@ -1,0 +1,43 @@
+VG视频 桌面客户端 —— 版权与开源许可声明
+================================================
+
+版权所有 (C) 2026  <请在此处填写你的姓名 / 组织名>
+
+本声明适用于 **VG视频 桌面客户端自身的源代码**，即本项目作者编写的部分：
+  main.py，以及 model/、view/、controller/、utility/、config/、test/
+  等目录中由本项目编写的代码（不含下方"第三方组件"段落所列内容）。
+
+一、本项目自身代码的许可证
+------------------------------------------------
+本项目自身代码以 **GNU Lesser General Public License version 3.0（LGPL-3.0）**
+发布。
+
+你可以在 LGPL-3.0 的条款下自由地使用、复制、修改、再分发本程序；若你修改了
+受 LGPL 覆盖的部分并以动态链接等方式提供给他人，须按 LGPL-3.0 的要求一并
+提供相应修改的源码。
+
+  * LGPL-3.0 完整正文：LICENSE.LGPL-3.0.txt
+  * LGPL-3.0 通过引用纳入 GNU GPL-3.0，其完整正文：LICENSE.GPL-3.0.txt
+
+二、第三方开源组件（不落入本 LGPL 授权范围）
+------------------------------------------------
+本仓库随包分发以下第三方开源软件，它们**各自保留自己的许可证**，并不因与本
+程序一同分发而变为 LGPL，也不将本程序"传染"为 GPL（属于 GPL 允许的独立程序
+聚合分发）：
+
+  * videovlc/            —— libVLC / VLC 3.0.11（库：LGPL-2.1+；应用程序与
+                           插件：GPL-2.0+），VideoLAN
+  * utility/vlc.py       —— python-vlc 绑定（LGPL-2.1+），VideoLAN / Olivier Aubert
+  * utility/aria2c.exe   —— aria2（GPL-2.0+，可选），Tatsuhiro Tsujikawa
+  * utility/ffmpeg.exe   —— FFmpeg（GPL-2.0+ 或 LGPL-2.1+，可选），FFmpeg team
+  * utility/windnd.py、utility/ToolTips.py —— 社区共享的 Tk 辅助模块
+  * Python / Tcl-Tk / Pillow / Nuitka —— 各自宽松许可证（PSF / BSD / MIT / Apache-2.0）
+
+上述组件的许可证全文、版权方与对应源码获取方式，详见本仓库的 **开源声明.md**。
+随包分发 GPL 组件时，仍须按各自许可证提供其许可证全文与（GPL 部分）对应源码
+的获取方式——这一义务与本项目自身采用 LGPL 无关，须一并履行。
+
+三、免责声明
+------------------------------------------------
+本程序按"原样"提供，不提供任何明示或暗示的担保，包括但不限于对适销性、
+特定用途适用性的担保。详见 LICENSE.LGPL-3.0.txt 第 15、16 条。

@@ -1,0 +1,41 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 打包产物 ----------
+build/
+dist/
+*.spec
+
+# ---------- 第三方运行库 ----------
+# 程序靠 videovlc/ 里的 libvlc 才能播放(约 6 MB / 上千个 DLL)。
+# 想让仓库连库一起备份,把下面这行注释掉即可。
+videovlc/
+
+# ---------- 运行时数据(程序自己会生成) ----------
+Recordset/
+rotation_local/
+*.log
+
+# ---------- 本机配置(含 cookie / 播放偏好) ----------
+# 想让仓库保存配置模板,把下面几行注释掉(config.example.json / tx_server/config.example.json 本就是模板)。
+config/config.ini
+config/config.json
+config/file.ini
+config/uiprefs.ini
+# 登录态续期快照:客户端一份(config/)、服务端一份(tx_server/),都含 cookie,都不进仓库。
+# 注意:gitignore 不支持行内注释,规则后面不能跟 # 说明,注释必须单独成行。
+config/.cookie_cache.json
+tx_server/.cookie_cache.json
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

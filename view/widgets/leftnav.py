@@ -50,6 +50,6 @@ def build_left_nav(s):
     _join_wid,_join_hei=nav_item_size(s.window)
     state.nav_buttons[12]=Label(s.window,text='  加入组织',width=_join_wid,height=_join_hei,bg="#34343D",fg="#BEBFBF",image=PhotoImage(file=''),compound=CENTER,font=nav_font(s.window), cursor="hand2",anchor = 'w')
     state.nav_buttons[12].place(**nav_place_kw(s.window,24))
-    state.nav_buttons[12].bind("<Button-1>",lambda *Left_option_12vg:open_new("https://jq.qq.com/?_wv=1027&k=5QGEo7J"))
+    state.nav_buttons[12].bind("<Button-1>",lambda *Left_option_12vg:open_new(""))
     state.nav_buttons[12].bind("<Leave>",lambda *Left_option_12vg:state.nav_buttons[12].configure(fg='#BEBFBF',image=PhotoImage(file='')))#离开时候变回
     state.nav_buttons[12].bind("<Enter>",lambda *Left_option_12vg:state.nav_buttons[12].configure(fg='#FF5C38',image=PhotoImage(file='')))#进入时变色

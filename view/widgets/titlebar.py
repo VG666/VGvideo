@@ -60,7 +60,7 @@ def build_window_controls(s):
         if file!="":#判断是否有没有选择
             _save_download_dir(file)#写进 config.json 的 path.download_dir(与接口层读的是同一份)
     menu.add_command(label="文件下载位置",command=_choose_download_dir)
-    menu.add_command(label="关于",command=lambda *menuvg:tkinter.messagebox.showinfo('关于','开发者QQ:2318930\n合作:果核剥壳:https://www.ghpym.com/'))
+    menu.add_command(label="关于",command=lambda *menuvg:tkinter.messagebox.showinfo('关于','开发者QQ:1684512896'))
     alpha_menu=Menu(menu,tearoff=False,bg="#FFFFFF",fg="#5C5C5C",activebackground="#E6E6E6",activeforeground="#5C5C5C")
     def _set_alpha(level):#整窗透明度:主窗口立即生效,之后新开的播放器窗口按同一档继承(state.window_alpha)
         try:
